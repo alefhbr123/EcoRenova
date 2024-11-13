@@ -12,4 +12,9 @@ ODS 15
 
 O projeto EcoRenova consiste em um blog onde as pessoas vão registrar a natureza a nossa volta. Ela vai buscar compartilhar mais a vida das nossas plantinhas, desenvolvendo mais a empatia por elas.
 
+Tecnologias utilizadas:
+- ``HTML``
+- ``CSS``
+- ``JavaScript``
+
 Estrutura do projeto
