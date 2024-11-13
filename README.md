@@ -1,7 +1,9 @@
 # EcoRenova
-As seguintes informações são necessárias no arquivo:
 
-EcoRenova
+
+Nome do projeto é EcoRenova
+
+Alunos: 
 
 2576147 - Álefh Trindade Luz De Lima
 
