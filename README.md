@@ -1,7 +1,4 @@
-# EcoRenova
-
-
-Nome do projeto é EcoRenova
+<h1 align="center"> EcoRenova </h1>
 
 Alunos: 
 
