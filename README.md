@@ -18,7 +18,7 @@ O projeto EcoRenova consiste em um blog onde as pessoas vão registrar a naturez
 - ``CSS``
 - ``JavaScript``
 
-## Estrutura do projeto
+## 🏗Estrutura do projeto
 - **README.md**: Contém as informações gerais do projeto, como descrição, objetivos, equipe e estrutura.
 - **index.html**: Página principal do site ou aplicação.
 - **style.css**: Arquivo que define o layout e a estética do site ou aplicação.
