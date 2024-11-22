@@ -1,4 +1,4 @@
-<img src="file:///C:/Users/User/Downloads/logoEcoRenova.jpeg" alt="Logo - EcoRenova" width="200" height="200">
+![Descrição da imagem](caminho/para/imagem.jpg)
 <h1 align="center"> EcoRenova </h1>
 
 <h4 align="center"> 
