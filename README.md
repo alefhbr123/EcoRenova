@@ -1,4 +1,4 @@
-<img src="https://123ecos.com.br/wp-content/uploads/2024/05/ODS-15-vida-terrestre-1-624x629.png" alt="ODS 15 - Vida Terrestre" width="200" height="200">
+<img src="EcoRenova/logoEcoRenova.jpeg" alt="Logo - EcoRenova" width="200" height="200">
 <h1 align="center"> EcoRenova </h1>
 
 <h4 align="center"> 
