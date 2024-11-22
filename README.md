@@ -1,4 +1,4 @@
-![Logo - EcoRenova](EcoRenova/logoEcoRenova.jpeg)
+![Logo - EcoRenova](logoEcoRenova.jpeg)
 <h1 align="center"> EcoRenova </h1>
 
 <h4 align="center"> 
