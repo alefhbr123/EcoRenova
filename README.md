@@ -1,4 +1,4 @@
-![Descrição da imagem](caminho/para/imagem.jpg)
+![Logo - EcoRenova](EcoRenova/logoEcoRenova.jpeg)
 <h1 align="center"> EcoRenova </h1>
 
 <h4 align="center"> 
