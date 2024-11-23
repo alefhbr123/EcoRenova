@@ -31,17 +31,18 @@ input{
 }
 /* Estilo para o botão */
 input[type="submit"]{
-    background-color: rgb(133, 211, 24);
+    background-color: rgb(111, 204, 68);
     cursor:pointer;
     transition: background-color 0.3s;
     width: 150px; 
     height: 40px;
     margin: 20px auto;
     border-radius: 5px;
+    font-size: 15px;
     font-weight: bold;
 }
 /* Estilo do botão ao passar o mouse */
 input[type="submit"]:hover{
-    background-color:rgb(123, 197, 19);
+    background-color:rgb(84, 187, 59);
     color:white;
 }
