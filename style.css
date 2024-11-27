@@ -1,4 +1,5 @@
-body {
+
+.body-login {
     display: flex;
     background-color: rgb(123, 226, 100);
     font-family: Arial, Helvetica, sans-serif;
@@ -7,6 +8,59 @@ body {
     height: 99vh;
     justify-content: center; 
     align-items: center; 
+}
+
+.body-inicial {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.header-principal {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(64, 66, 64);
+}
+
+.header-logo {
+    margin-right: auto;
+    
+}
+
+.header-name{
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+
+.topnav-item{
+    padding: 18px 20px;
+    text-align: center;
+    background-color: rgb(80, 168, 29);
+    margin: 0;
+}
+
+.footer-principal{
+    background-color: rgb(34, 87, 60);
+    margin-top: auto;
+}
+
+.blog-post-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.blog-post-item{
+    padding: 0px 20px;
 }
 
 /* Estilo para o formulário */
