@@ -1,5 +1,5 @@
 <div align="center">
-<img src="logoEcoRenova.jpeg" alt="Logo - EcoRenova" width="200" height="200">
+<img src="logoEcoRenova-removebg-preview.png" alt="Logo - EcoRenova" width="200" height="200">
 </div>
 <h1 align="center"> EcoRenova </h1>
 
