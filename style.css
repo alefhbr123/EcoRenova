@@ -57,11 +57,27 @@
     flex-direction: row;
     justify-content: space-around;
     padding: 50px;
+    flex-wrap:nowrap;
+}
+
+.blog-post-section a{
+    text-decoration: none;
+    color: black;
 }
 
 .blog-post-item{
     padding: 0px 20px;
+    width: 100%;
 }
+
+.blog-post-item img{
+    width: 100%;
+  height: 275px;
+  object-fit: cover;
+  border: 1px solid red;
+  border-radius: 10px;
+}
+
 
 .barra-pesquisa{
     margin: 50px 30px;
