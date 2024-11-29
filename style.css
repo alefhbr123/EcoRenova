@@ -28,6 +28,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     background-color: #A8D5BA;
     border-bottom: 5px solid rgb(40, 172, 40);
 }
@@ -156,6 +157,7 @@
 
 
 .barra-pesquisa{
+    width: 33%;
     margin: 50px 30px;
     font-size: medium;
 }
