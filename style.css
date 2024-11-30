@@ -167,7 +167,8 @@
 }
 
 .blog-post-item h3{
-    font-size: 26px;
+    margin: 24px 0;
+    font-size: 30px;
 }
 
 .blog-post-item img{
