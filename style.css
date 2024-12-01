@@ -1,5 +1,15 @@
 
-/* Estilo geral para o corpo das páginas do site, exceto login e cadastro */
+.body-login {
+    display: flex;
+    background-color: rgb(123, 226, 100);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    height: 99vh;
+    justify-content: center; 
+    align-items: center; 
+}
+
 .body-inicial {
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
@@ -11,9 +21,6 @@
     background-color: #FAF3E0;
 }
 
-
-
-/* Estilos aplicados no cabeçalho */
 .header-principal {
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
@@ -38,13 +45,6 @@
     padding: 15px;
 }
 
-.barra-pesquisa{
-    width: 33%;
-    margin: 50px 30px;
-    font-size: medium;
-}
-
-/* Estilos dos botões de login e cadastro da página principal */
 .topnav-item{
     padding: 18px 20px;
     text-align: center;
@@ -54,48 +54,10 @@
     border-radius: 5px;
     text-decoration: none;
 }
-
 .topnav-item:hover{
     background-color: #1b831f;
 }
 
-
-
-/* Estilos para o menu de navegação */
-.menu-principal {
-    background-color: #f2f2f2;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-}
-
-nav ul {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-}
-
-nav ul li{
-    margin-right: 20px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    color:#2E7D32;
-}
-
-nav ul li a:hover{
-    color:#76B041;
-}
-
-
-
-/* Seletores de estilo aplicados no rodapé */
 .footer-principal{
     display: flex;
     background-color: #2E7D32;
@@ -140,6 +102,7 @@ nav ul li a:hover{
     color: #e7e7e7;
 }
 
+
 .rodapeImg{
     display:flex;
     justify-content: flex-start;
@@ -164,36 +127,12 @@ nav ul li a:hover{
     color:#FFFFFF;
 }
 
-
-
-/* Seletores aplicados na seção dos posts */
 .blog-post-section{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding: 50px;
     flex-wrap: wrap;
-}
-
-.blog-post-section-heading{
-    display: flex;
-    flex: 0 0 100%;
-    margin: 0 0 1% 0;
-    padding: 0;
-}
-
-.blog-post-section-heading h2{
-    font-size: 36px;
-    margin: 0 1%;
-}
-
-/* Estilo do divisor de conteúdo*/
-.divider{
-    margin: 0;
-    padding: 0;
-    border-top: 1px solid rgb(26, 136, 26);
-    align-self: center;
-    flex: 1 1 auto;
 }
 
 .blog-post-section a{
@@ -207,38 +146,77 @@ nav ul li a:hover{
     flex: 0 0 30%;
 }
 
-.blog-post-item h3{
-    margin: 24px 0;
-    font-size: 30px;
-}
-
-.blog-post-item p{
-    font-family: Tahoma, Helvetica, Arial;
-}
-
 .blog-post-item img{
     width: 100%;
-    height: 275px;
-    object-fit: cover;
-    border: 1px solid rgb(34, 57, 26);
-    border-radius: 10px;
-    box-shadow:0 4px 8px rgba(0, 0, 0, 0.2);
+  height: 275px;
+  object-fit: cover;
+  border: 1px solid rgb(34, 57, 26);
+  border-radius: 10px;
+  box-shadow:0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+.tituloPagPrincipal{
+    justify-content: center;
+    align-items: center;
+}
 
+.barra-pesquisa{
+    width: 33%;
+    margin: 50px 30px;
+    font-size: medium;
+}
 
-/* Estilos utilizados especificamente nas páginas de login e cadastro */
-.body-login {
+.menu-lateral {
+    background-color: #f2f2f2;
+    padding: 10px;
+    justify-content: center;
     display: flex;
-    background-color: rgb(123, 226, 100);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    height: 99vh;
-    justify-content: center; 
-    align-items: center; 
 }
 
+.post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.post img {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.post h2 {
+    text-align: center;
+}
+
+.material-symbols-outlined{
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li{
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    color:#2E7D32;
+}
+
+nav ul li a:hover{
+    color:#76B041;
+}
 /* Estilo para o formulário */
 form {
     
