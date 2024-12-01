@@ -262,7 +262,10 @@ nav ul li a:hover{
 /* Estilos utilizados especificamente nas páginas de login e cadastro */
 .body-login {
     display: flex;
-    background-color: rgb(123, 226, 100);
+    background-image: url(assets/pexels-igrevsky-1310755.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-weight: bold;
@@ -271,11 +274,11 @@ nav ul li a:hover{
     align-items: center; 
 }
 
+
 /* Estilo para o formulário */
 form {
-    
     display: flex;
-    background-color: rgb(164, 228, 150);
+    background-color: #61764B;
     padding: 20px;
     width: 300px;
     border-style: solid;
@@ -285,15 +288,17 @@ form {
     border: none;
     text-indent: 10px;
 }
+
 /* Estilo do input */
 input{
     padding: 10px;
     border-radius: 5px;
     border:none;
 }
+
 /* Estilo para o botão */
 input[type="submit"]{
-    background-color: rgb(111, 204, 68);
+    background-color: #a8da77;
     cursor:pointer;
     transition: background-color 0.3s;
     width: 150px; 
@@ -303,8 +308,9 @@ input[type="submit"]{
     font-size: 15px;
     font-weight: bold;
 }
+
 /* Estilo do botão ao passar o mouse */
 input[type="submit"]:hover{
-    background-color:rgb(84, 187, 59);
+    background-color:rgba(21, 92, 4, 0.582);
     color:white;
 }
