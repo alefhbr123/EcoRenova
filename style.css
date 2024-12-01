@@ -202,6 +202,7 @@ nav ul {
     display: flex;
     align-items: center;
 }
+
 nav ul li{
     margin-right: 20px;
 }
@@ -216,6 +217,7 @@ nav ul li a {
 nav ul li a:hover{
     color:#76B041;
 }
+
 /* Estilo para o formulário */
 form {
     
