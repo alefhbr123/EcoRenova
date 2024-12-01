@@ -190,15 +190,17 @@
 .menu-lateral {
     background-color: #f2f2f2;
     padding: 10px;
-    justify-content: center;
     display: flex;
+    justify-content: center;
 }
 
 nav ul {
+    display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
+    align-items: center;
 }
 nav ul li{
     margin-right: 20px;
