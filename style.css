@@ -212,6 +212,10 @@ nav ul li a:hover{
     font-size: 30px;
 }
 
+.blog-post-item p{
+    font-family: Tahoma, Helvetica, Arial;
+}
+
 .blog-post-item img{
     width: 100%;
     height: 275px;
@@ -223,7 +227,7 @@ nav ul li a:hover{
 
 
 
-/* Estilos utilizados especialmente nas páginas de login e cadastro */
+/* Estilos utilizados especificamente nas páginas de login e cadastro */
 .body-login {
     display: flex;
     background-color: rgb(123, 226, 100);
