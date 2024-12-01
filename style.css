@@ -1,15 +1,5 @@
 
-.body-login {
-    display: flex;
-    background-color: rgb(123, 226, 100);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    height: 99vh;
-    justify-content: center; 
-    align-items: center; 
-}
-
+/* Estilo geral para o corpo das páginas do site, exceto login e cadastro */
 .body-inicial {
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
@@ -21,6 +11,9 @@
     background-color: #FAF3E0;
 }
 
+
+
+/* Estilos aplicados no cabeçalho */
 .header-principal {
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
@@ -45,6 +38,13 @@
     padding: 15px;
 }
 
+.barra-pesquisa{
+    width: 33%;
+    margin: 50px 30px;
+    font-size: medium;
+}
+
+/* Estilos dos botões de login e cadastro da página principal */
 .topnav-item{
     padding: 18px 20px;
     text-align: center;
@@ -54,10 +54,48 @@
     border-radius: 5px;
     text-decoration: none;
 }
+
 .topnav-item:hover{
     background-color: #1b831f;
 }
 
+
+
+/* Estilos para o menu de navegação */
+.menu-lateral {
+    background-color: #f2f2f2;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    color:#2E7D32;
+}
+
+nav ul li a:hover{
+    color:#76B041;
+}
+
+
+
+/* Seletores de estilo aplicados no rodapé */
 .footer-principal{
     display: flex;
     background-color: #2E7D32;
@@ -102,7 +140,6 @@
     color: #e7e7e7;
 }
 
-
 .rodapeImg{
     display:flex;
     justify-content: flex-start;
@@ -127,6 +164,9 @@
     color:#FFFFFF;
 }
 
+
+
+/* Seletores aplicados na seção dos posts */
 .blog-post-section{
     display: flex;
     flex-direction: row;
@@ -147,6 +187,7 @@
     margin: 0 1%;
 }
 
+/* Estilo do divisor de conteúdo*/
 .divider{
     margin: 0;
     padding: 0;
@@ -181,41 +222,17 @@
 }
 
 
-.barra-pesquisa{
-    width: 33%;
-    margin: 50px 30px;
-    font-size: medium;
-}
 
-.menu-lateral {
-    background-color: #f2f2f2;
-    padding: 10px;
+/* Estilos utilizados especialmente nas páginas de login e cadastro */
+.body-login {
     display: flex;
-    justify-content: center;
-}
-
-nav ul {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-}
-
-nav ul li{
-    margin-right: 20px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: black;
+    background-color: rgb(123, 226, 100);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
     font-weight: bold;
-    color:#2E7D32;
-}
-
-nav ul li a:hover{
-    color:#76B041;
+    height: 99vh;
+    justify-content: center; 
+    align-items: center; 
 }
 
 /* Estilo para o formulário */
