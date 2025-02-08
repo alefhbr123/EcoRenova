@@ -2,16 +2,14 @@
 /* Estilo geral para o corpo das páginas do site, exceto login e cadastro */
 .body-inicial {
     display: flex;
+    flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    flex-direction: column;
     min-height: 100vh;
     margin: 0;
     padding: 0;
     background-color: #FAF3E0;
 }
-
-
 
 /* Estilos aplicados no cabeçalho */
 .header-principal {
@@ -42,6 +40,7 @@
     width: 33%;
     margin: 50px 30px;
     font-size: medium;
+    display: block;
 }
 
 /* Estilos dos botões de login e cadastro da página principal */
@@ -163,7 +162,6 @@ nav ul li a:hover{
 .contato{
     color:#FFFFFF;
 }
-
 
 
 /* Seletores aplicados na seção dos posts */
@@ -313,4 +311,53 @@ input[type="submit"]{
 input[type="submit"]:hover{
     background-color:rgba(21, 92, 4, 0.582);
     color:white;
+}
+
+.CadAdmin {
+    display: flex;
+    margin: 50px auto;
+    background-color: rgb(223, 247, 217); /* Evita transparência */
+    padding: 20px;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+#listaUsuarios{
+    position: relative; /* Mantém a lista visível */
+    z-index: 5; /* Menor que o formulário */
+    margin: 30px auto;
+    margin-top: 100px; /* Dá espaço para não ficar atrás do formulário */
+    background: #A8D5BA;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#searchInput{
+    margin: 0 auto;
+}
+
+.TituloCad{
+    text-align: center;
+}
+
+#btnExcluirTodos{
+    text-align: center;
+    margin: 30px auto;
+}
+
+.titulo-ajudar{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+.link-ajuda{
+    list-style: none; 
+    padding: 0;
+    text-align: center;
+}
+
+.link-ajuda li {
+    margin: 10px 0; 
 }
