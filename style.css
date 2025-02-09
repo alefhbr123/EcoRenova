@@ -10,7 +10,6 @@
     padding: 0;
     background-color: #FAF3E0;
 }
-
 /* Estilos aplicados no cabeçalho */
 .header-principal {
     display: flex;
@@ -307,6 +306,17 @@ input[type="submit"]{
     font-weight: bold;
 }
 
+input[type="reset"]{
+    background-color: #a8da77;
+    cursor:pointer;
+    transition: background-color 0.3s;
+    width: 150px; 
+    height: 40px;
+    margin: 20px auto;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
 /* Estilo do botão ao passar o mouse */
 input[type="submit"]:hover{
     background-color:rgba(21, 92, 4, 0.582);
