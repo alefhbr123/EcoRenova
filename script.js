@@ -96,7 +96,7 @@ document.querySelector(".CadAdmin").addEventListener("submit", function (event) 
     nameInput.value = "";
     emailInput.value = "";
 });
-
+// Função para filtrar os Posts
 function filtrarPosts() {
     var searchInput = document.getElementById("barraPesq").value.toLowerCase();
     var posts = document.querySelectorAll(".blog-post-item");
